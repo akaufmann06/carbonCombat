@@ -8,25 +8,23 @@
 import UIKit
 
 class FactGenViewController: UIViewController {
-
+    @IBOutlet weak var factGenTextBox: UILabel!
+    let facts = ["","fact 1", "fact 2", "fact 3", ]
+    var randomIndex = 0
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        factGenTextBox.text = facts[randomIndex]
         // Do any additional setup after loading the view.
     }
     
     
-    @IBOutlet weak var factGenTextBox: UILabel!
     
     
     
     @IBAction func factGenButton(_ sender: Any) {
-        let facts = ["fact 1", "fact 2", "fact 3"]
-
-        if factGenTextBox.text == facts[0] || factGenTextBox.text == ""{
-            factGenTextBox.text = print(facts.randomElement()!)
-        }
-        
+        if(randomIndex == facts[]{
+            randomIndex = facts.randomElement(){
+                factGenTextBox.text=facts[randomIndex]}
     }
     
     
