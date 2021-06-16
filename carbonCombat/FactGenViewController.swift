@@ -9,7 +9,7 @@ import UIKit
 
 class FactGenViewController: UIViewController {
     @IBOutlet weak var factGenTextBox: UILabel!
-    let facts = ["","fact 1", "fact 2", "fact 3", ]
+    let facts = ["click the button to generate the fact","fact 1", "fact 2", "fact 3", ]
     var randomIndex = 0
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,9 +22,8 @@ class FactGenViewController: UIViewController {
     
     
     @IBAction func factGenButton(_ sender: Any) {
-        if(randomIndex == facts[]{
-            randomIndex = facts.randomElement(){
-                factGenTextBox.text=facts[randomIndex]}
+        randomIndex = Int.random(in:1...facts.count-1)
+                factGenTextBox.text=facts[randomIndex]
     }
     
     

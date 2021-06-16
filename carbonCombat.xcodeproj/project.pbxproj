@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4CCD28CE267A5117007431F2 /* San Francisco Pro.pkg in Resources */ = {isa = PBXBuildFile; fileRef = 4CCD28CD267A5117007431F2 /* San Francisco Pro.pkg */; };
 		E56E79EB267936510015F86E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56E79EA267936510015F86E /* AppDelegate.swift */; };
 		E56E79ED267936510015F86E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56E79EC267936510015F86E /* SceneDelegate.swift */; };
 		E56E79EF267936510015F86E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56E79EE267936510015F86E /* ViewController.swift */; };
@@ -19,7 +18,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4CCD28CD267A5117007431F2 /* San Francisco Pro.pkg */ = {isa = PBXFileReference; lastKnownFileType = file; name = "San Francisco Pro.pkg"; path = "../../../../../../Volumes/SanFranciscoPro/San Francisco Pro.pkg"; sourceTree = "<group>"; };
 		E56E79E7267936510015F86E /* carbonCombat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carbonCombat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E56E79EA267936510015F86E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E56E79EC267936510015F86E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,7 +69,6 @@
 				E56E79FB267936540015F86E /* Info.plist */,
 				E56E79F3267936510015F86E /* carbonCombat.xcdatamodeld */,
 				E56E7A01267A4A140015F86E /* FactGenViewController.swift */,
-				4CCD28CD267A5117007431F2 /* San Francisco Pro.pkg */,
 			);
 			path = carbonCombat;
 			sourceTree = "<group>";
@@ -133,7 +130,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CCD28CE267A5117007431F2 /* San Francisco Pro.pkg in Resources */,
 				E56E79FA267936540015F86E /* LaunchScreen.storyboard in Resources */,
 				E56E79F7267936540015F86E /* Assets.xcassets in Resources */,
 				E56E79F2267936510015F86E /* Main.storyboard in Resources */,
