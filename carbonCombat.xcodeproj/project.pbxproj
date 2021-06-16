@@ -14,6 +14,7 @@
 		E56E79F5267936510015F86E /* carbonCombat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E56E79F3267936510015F86E /* carbonCombat.xcdatamodeld */; };
 		E56E79F7267936540015F86E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E56E79F6267936540015F86E /* Assets.xcassets */; };
 		E56E79FA267936540015F86E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E56E79F8267936540015F86E /* LaunchScreen.storyboard */; };
+		E56E7A02267A4A140015F86E /* FactGenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56E7A01267A4A140015F86E /* FactGenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E56E79F6267936540015F86E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E56E79F9267936540015F86E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E56E79FB267936540015F86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E56E7A01267A4A140015F86E /* FactGenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactGenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				E56E79F8267936540015F86E /* LaunchScreen.storyboard */,
 				E56E79FB267936540015F86E /* Info.plist */,
 				E56E79F3267936510015F86E /* carbonCombat.xcdatamodeld */,
+				E56E7A01267A4A140015F86E /* FactGenViewController.swift */,
 			);
 			path = carbonCombat;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				E56E79F5267936510015F86E /* carbonCombat.xcdatamodeld in Sources */,
 				E56E79EF267936510015F86E /* ViewController.swift in Sources */,
+				E56E7A02267A4A140015F86E /* FactGenViewController.swift in Sources */,
 				E56E79EB267936510015F86E /* AppDelegate.swift in Sources */,
 				E56E79ED267936510015F86E /* SceneDelegate.swift in Sources */,
 			);
