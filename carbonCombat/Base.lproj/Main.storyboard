@@ -207,7 +207,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="need some inspiration? click here!"/>
                                 <connections>
-                                    <segue destination="qUq-kf-rG1" kind="show" id="fFy-xX-Qg3"/>
+                                    <segue destination="agG-rK-4LH" kind="show" id="eTQ-0k-1Ls"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -247,11 +247,13 @@
                             <outlet property="delegate" destination="agG-rK-4LH" id="tSW-QI-GzM"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Goals Inspiration" id="hiK-mN-oZs"/>
+                    <navigationItem key="navigationItem" title="Goals Inspiration" id="hiK-mN-oZs">
+                        <barButtonItem key="backBarButtonItem" title="Goals" id="OOR-xI-WLI"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yhw-ox-Pr9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3347.826086956522" y="803.57142857142856"/>
+            <point key="canvasLocation" x="2584" y="804"/>
         </scene>
         <!--Fact Gen View Controller-->
         <scene sceneID="0TM-Sk-Zh4">
@@ -351,28 +353,9 @@
             </objects>
             <point key="canvasLocation" x="19" y="804"/>
         </scene>
-        <!--Goals Inspiration-->
-        <scene sceneID="rwG-2y-H5n">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qUq-kf-rG1" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Goals Inspiration" id="EtX-9v-2Pc"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Z2m-Qk-eYH">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="agG-rK-4LH" kind="relationship" relationship="rootViewController" id="kdG-H5-VMI"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="feq-zZ-w9A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2437.68115942029" y="803.57142857142856"/>
-        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="LEg-VD-7DZ"/>
+        <segue reference="5G4-k6-6Mo"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="carbon-combat-symbol" width="730" height="616"/>
