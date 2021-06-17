@@ -86,7 +86,7 @@
             </objects>
             <point key="canvasLocation" x="928.98550724637687" y="93.75"/>
         </scene>
-        <!--Goals-->
+        <!--Your Goals-->
         <scene sceneID="WQf-Zv-SzY">
             <objects>
                 <tableViewController id="psu-eP-Umn" customClass="GoalsTableViewController" customModule="carbonCombat" customModuleProvider="target" sceneMemberID="viewController">
@@ -109,7 +109,7 @@
                             <outlet property="delegate" destination="psu-eP-Umn" id="Yqo-FH-IAu"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Goals" id="Ugd-db-5eG">
+                    <navigationItem key="navigationItem" title="Your Goals" id="Ugd-db-5eG">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="OxK-7j-5Sc">
                             <connections>
                                 <segue destination="xlp-Ih-bQC" kind="show" id="6HX-fs-9UN"/>
@@ -232,15 +232,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Am-mR-WHw">
-                                <rect key="frame" x="0.0" y="249" width="414" height="296"/>
+                                <rect key="frame" x="0.0" y="271" width="414" height="247"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UCZ-M1-hy3">
-                                        <rect key="frame" x="24" y="35" width="367" height="227"/>
+                                        <rect key="frame" x="25" y="14" width="368" height="219"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fact" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CGa-jF-t6g">
-                                                <rect key="frame" x="21" y="8" width="324" height="211"/>
+                                                <rect key="frame" x="0.0" y="4" width="368" height="211"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
                                                 <nil key="textColor"/>
@@ -250,10 +250,10 @@
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" red="0.1333333333" green="0.20000000000000001" blue="0.23137254900000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.73725490196078436" green="0.80000000000000004" blue="0.72549019607843135" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cc0-ae-4u6">
-                                <rect key="frame" x="131" y="628" width="152" height="58"/>
+                                <rect key="frame" x="131" y="574" width="152" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.73725490196078436" green="0.80000000000000004" blue="0.72549019607843135" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
