@@ -10,14 +10,22 @@ import UIKit
 class AddGoalViewController: UIViewController {
     var previousVC = GoalsTableViewController()
     
+    @IBOutlet weak var doAddButtonRounded: UIButton!
+    
+    @IBOutlet weak var doInspoButtonRounded: UIButton!
     @IBOutlet weak var titleTextField: UITextField!
     
     @IBOutlet weak var importantSwitch: UISwitch!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        doAddButtonRounded.layer.cornerRadius = 20
+      doAddButtonRounded.layer.borderWidth = 10
+      doAddButtonRounded.layer.borderColor = CGColor(red: 233 / 255, green: 243 / 255, blue: 235 / 255, alpha: 1)
+      
+      doInspoButtonRounded.layer.cornerRadius = 20
+    doInspoButtonRounded.layer.borderWidth = 10
+    doInspoButtonRounded.layer.borderColor = CGColor(red: 233 / 255, green: 243 / 255, blue: 235 / 255, alpha: 1)
     }
     
 

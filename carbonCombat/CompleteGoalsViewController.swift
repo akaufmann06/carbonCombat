@@ -14,9 +14,14 @@ class CompleteGoalsViewController: UIViewController {
 
     @IBOutlet weak var titleLabel: UILabel!
     
+    @IBOutlet weak var doCompleteButtonRounded: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         titleLabel.text = selectedToDo?.name
+        doCompleteButtonRounded.layer.cornerRadius = 20
+      doCompleteButtonRounded.layer.borderWidth = 10
+      doCompleteButtonRounded.layer.borderColor = CGColor(red: 233 / 255, green: 243 / 255, blue: 235 / 255, alpha: 1)
         // Do any additional setup after loading the view.
     }
     
