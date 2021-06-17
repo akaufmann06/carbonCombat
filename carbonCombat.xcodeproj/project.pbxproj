@@ -22,6 +22,9 @@
 		E56E79F7267936540015F86E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E56E79F6267936540015F86E /* Assets.xcassets */; };
 		E56E79FA267936540015F86E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E56E79F8267936540015F86E /* LaunchScreen.storyboard */; };
 		E56E7A02267A4A140015F86E /* FactGenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56E7A01267A4A140015F86E /* FactGenViewController.swift */; };
+		E56E7A04267BD1760015F86E /* QuizLightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56E7A03267BD1760015F86E /* QuizLightsViewController.swift */; };
+		E56E7A06267BD19F0015F86E /* QuizFastFashionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56E7A05267BD19F0015F86E /* QuizFastFashionViewController.swift */; };
+		E56E7A08267BD1CB0015F86E /* QuizWaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56E7A07267BD1CB0015F86E /* QuizWaterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		E56E79F9267936540015F86E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E56E79FB267936540015F86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E56E7A01267A4A140015F86E /* FactGenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactGenViewController.swift; sourceTree = "<group>"; };
+		E56E7A03267BD1760015F86E /* QuizLightsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizLightsViewController.swift; sourceTree = "<group>"; };
+		E56E7A05267BD19F0015F86E /* QuizFastFashionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizFastFashionViewController.swift; sourceTree = "<group>"; };
+		E56E7A07267BD1CB0015F86E /* QuizWaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizWaterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 				4DF63B4C267BA1B7004EB013 /* GoalsInspoTableViewController.swift */,
 				4DF63B4E267BA207004EB013 /* GoalsInspo.swift */,
 				4CCE2A84267BB4980028FE76 /* QuizViewController.swift */,
+				E56E7A03267BD1760015F86E /* QuizLightsViewController.swift */,
+				E56E7A05267BD19F0015F86E /* QuizFastFashionViewController.swift */,
+				E56E7A07267BD1CB0015F86E /* QuizWaterViewController.swift */,
 			);
 			path = carbonCombat;
 			sourceTree = "<group>";
@@ -168,7 +177,10 @@
 				4DF63B4D267BA1B7004EB013 /* GoalsInspoTableViewController.swift in Sources */,
 				4CCD28D6267ADE53007431F2 /* CompleteGoalsViewController.swift in Sources */,
 				4CCE2A85267BB4980028FE76 /* QuizViewController.swift in Sources */,
+				E56E7A04267BD1760015F86E /* QuizLightsViewController.swift in Sources */,
 				4CCD28D2267AD770007431F2 /* Goals.swift in Sources */,
+				E56E7A06267BD19F0015F86E /* QuizFastFashionViewController.swift in Sources */,
+				E56E7A08267BD1CB0015F86E /* QuizWaterViewController.swift in Sources */,
 				4CCD28D4267ADC45007431F2 /* AddGoalViewController.swift in Sources */,
 				E56E79F5267936510015F86E /* carbonCombat.xcdatamodeld in Sources */,
 				E56E79EF267936510015F86E /* ViewController.swift in Sources */,
