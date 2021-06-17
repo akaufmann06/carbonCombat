@@ -8,6 +8,22 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Quiz View Controller-->
+        <scene sceneID="GCI-5L-s0K">
+            <objects>
+                <viewController id="0e4-1o-Zz9" customClass="QuizViewController" customModule="carbonCombat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ygz-Ga-ScH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Otb-ck-mhJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bYM-yI-Dpp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qfC-Kg-vfh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="929" y="-680"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -67,6 +83,15 @@
                                 <rect key="frame" x="192" y="129" width="188" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dn6-pe-R0G">
+                                <rect key="frame" x="190" y="435" width="41" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Quiz"/>
+                                <connections>
+                                    <segue destination="0e4-1o-Zz9" kind="show" id="f97-aa-H4V"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -193,21 +218,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kba-wy-mWa">
+                                <rect key="frame" x="59" y="767" width="297" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="need some inspiration? click here!"/>
+                                <connections>
+                                    <segue destination="agG-rK-4LH" kind="show" id="eTQ-0k-1Ls"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p19-mW-NH6">
-                                <rect key="frame" x="148" y="607" width="130" height="68"/>
+                                <rect key="frame" x="142" y="691" width="130" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Add Goal"/>
                                 <connections>
                                     <action selector="addTapped:" destination="xlp-Ih-bQC" eventType="touchUpInside" id="NwC-0A-EzA"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kba-wy-mWa">
-                                <rect key="frame" x="97" y="683" width="233" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="need some inspiration? click here!"/>
-                                <connections>
-                                    <segue destination="agG-rK-4LH" kind="show" id="eTQ-0k-1Ls"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -222,7 +248,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8HD-0s-LCD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1647.826086956522" y="803.57142857142856"/>
+            <point key="canvasLocation" x="1648" y="804"/>
         </scene>
         <!--Goals Inspiration-->
         <scene sceneID="ZHc-hz-ioC">
@@ -253,7 +279,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yhw-ox-Pr9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2584" y="804"/>
+            <point key="canvasLocation" x="2433" y="804"/>
         </scene>
         <!--Fact Gen View Controller-->
         <scene sceneID="0TM-Sk-Zh4">
@@ -355,7 +381,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="5G4-k6-6Mo"/>
+        <segue reference="LEg-VD-7DZ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="carbon-combat-symbol" width="730" height="616"/>
