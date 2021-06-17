@@ -194,12 +194,20 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p19-mW-NH6">
-                                <rect key="frame" x="142" y="757" width="130" height="68"/>
+                                <rect key="frame" x="148" y="607" width="130" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Add Goal"/>
                                 <connections>
                                     <action selector="addTapped:" destination="xlp-Ih-bQC" eventType="touchUpInside" id="NwC-0A-EzA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kba-wy-mWa">
+                                <rect key="frame" x="97" y="683" width="233" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="need some inspiration? click here!"/>
+                                <connections>
+                                    <segue destination="qUq-kf-rG1" kind="show" id="fFy-xX-Qg3"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -215,6 +223,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8HD-0s-LCD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1647.826086956522" y="803.57142857142856"/>
+        </scene>
+        <!--Goals Inspiration-->
+        <scene sceneID="ZHc-hz-ioC">
+            <objects>
+                <tableViewController id="agG-rK-4LH" customClass="GoalsInspoTableViewController" customModule="carbonCombat" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Zu0-Ed-Nk4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="Uwo-lS-Fvt">
+                                <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Uwo-lS-Fvt" id="Y44-Jo-UPk">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="agG-rK-4LH" id="qX6-g4-a4R"/>
+                            <outlet property="delegate" destination="agG-rK-4LH" id="tSW-QI-GzM"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Goals Inspiration" id="hiK-mN-oZs"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yhw-ox-Pr9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3347.826086956522" y="803.57142857142856"/>
         </scene>
         <!--Fact Gen View Controller-->
         <scene sceneID="0TM-Sk-Zh4">
@@ -313,6 +350,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R2I-xH-sR1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="19" y="804"/>
+        </scene>
+        <!--Goals Inspiration-->
+        <scene sceneID="rwG-2y-H5n">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qUq-kf-rG1" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Goals Inspiration" id="EtX-9v-2Pc"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Z2m-Qk-eYH">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="agG-rK-4LH" kind="relationship" relationship="rootViewController" id="kdG-H5-VMI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="feq-zZ-w9A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2437.68115942029" y="803.57142857142856"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

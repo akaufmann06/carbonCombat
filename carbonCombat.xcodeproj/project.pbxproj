@@ -11,6 +11,8 @@
 		4CCD28D2267AD770007431F2 /* Goals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCD28D1267AD770007431F2 /* Goals.swift */; };
 		4CCD28D4267ADC45007431F2 /* AddGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCD28D3267ADC45007431F2 /* AddGoalViewController.swift */; };
 		4CCD28D6267ADE53007431F2 /* CompleteGoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCD28D5267ADE53007431F2 /* CompleteGoalsViewController.swift */; };
+		4DF63B4D267BA1B7004EB013 /* GoalsInspoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF63B4C267BA1B7004EB013 /* GoalsInspoTableViewController.swift */; };
+		4DF63B4F267BA207004EB013 /* GoalsInspo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF63B4E267BA207004EB013 /* GoalsInspo.swift */; };
 		E56E79EB267936510015F86E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56E79EA267936510015F86E /* AppDelegate.swift */; };
 		E56E79ED267936510015F86E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56E79EC267936510015F86E /* SceneDelegate.swift */; };
 		E56E79EF267936510015F86E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56E79EE267936510015F86E /* ViewController.swift */; };
@@ -26,6 +28,8 @@
 		4CCD28D1267AD770007431F2 /* Goals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goals.swift; sourceTree = "<group>"; };
 		4CCD28D3267ADC45007431F2 /* AddGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalViewController.swift; sourceTree = "<group>"; };
 		4CCD28D5267ADE53007431F2 /* CompleteGoalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteGoalsViewController.swift; sourceTree = "<group>"; };
+		4DF63B4C267BA1B7004EB013 /* GoalsInspoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsInspoTableViewController.swift; sourceTree = "<group>"; };
+		4DF63B4E267BA207004EB013 /* GoalsInspo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsInspo.swift; sourceTree = "<group>"; };
 		E56E79E7267936510015F86E /* carbonCombat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carbonCombat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E56E79EA267936510015F86E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E56E79EC267936510015F86E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 				4CCD28D1267AD770007431F2 /* Goals.swift */,
 				4CCD28D3267ADC45007431F2 /* AddGoalViewController.swift */,
 				4CCD28D5267ADE53007431F2 /* CompleteGoalsViewController.swift */,
+				4DF63B4C267BA1B7004EB013 /* GoalsInspoTableViewController.swift */,
+				4DF63B4E267BA207004EB013 /* GoalsInspo.swift */,
 			);
 			path = carbonCombat;
 			sourceTree = "<group>";
@@ -155,6 +161,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DF63B4F267BA207004EB013 /* GoalsInspo.swift in Sources */,
+				4DF63B4D267BA1B7004EB013 /* GoalsInspoTableViewController.swift in Sources */,
 				4CCD28D6267ADE53007431F2 /* CompleteGoalsViewController.swift in Sources */,
 				4CCD28D2267AD770007431F2 /* Goals.swift in Sources */,
 				4CCD28D4267ADC45007431F2 /* AddGoalViewController.swift in Sources */,
