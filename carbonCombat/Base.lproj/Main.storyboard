@@ -404,7 +404,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="title-image" translatesAutoresizingMaskIntoConstraints="NO" id="fc2-Hp-Oum">
-                                <rect key="frame" x="-44" y="468" width="476" height="366"/>
+                                <rect key="frame" x="-32" y="468" width="464" height="340"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -425,7 +425,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1090" y="113"/>
+            <point key="canvasLocation" x="1089.8550724637682" y="112.5"/>
         </scene>
         <!--Your Goals-->
         <scene sceneID="WQf-Zv-SzY">
@@ -732,6 +732,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="w4c-9e-qkB"/>
         <segue reference="LEg-VD-7DZ"/>
         <segue reference="vzx-mS-g1B"/>
     </inferredMetricsTieBreakers>
